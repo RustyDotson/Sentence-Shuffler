@@ -5,7 +5,7 @@ Sentence-Shuffler shuffles the text of multiple sentences within a text file, an
 
 This application is useful for language teachers wanting to quickly make a large document of randomized word sorting problems. These types of problems will help language learners become more familiar with specific grammar structures. 
 
-For example: A text document can be filled with sentences such as "I really like cats." and may be shuffled into "really / cats. / like / I"
+For example: A text document can be filled with sentences such as "I really like cats." and may be shuffled into "/ really / cats. / like / I /"
 
 Afterwards, a teacher can take the randomly shuffled sentences and print them on paper, and have 
 students try reorganizing the words back into the correct order.
@@ -48,12 +48,12 @@ Kubota+Sensei has been to Tokyo.<br />
 
 ***And here is the output:***
 
-McDonalds for / have been / 5 / I / years. / working at / <br />
-has been / sleeping for / hours. / 3 / Cody / <br />
-to / Rusty / New York. / has been / <br />
-has been / Jake / fishing for / 6 years. /<br /> 
-months. / Bob / for / 3 / has been / studying Japanese /<br /> 
-Squidward / playing the clarinet / has been / 32 / years. / for /<br /> 
-been / Tokyo. / Kubota Sensei / has / to / <br />
+/ have been / years. / 5 / McDonalds for / working at / I / <br />
+/ has been / 3 / sleeping for / Cody / hours. / <br />
+/ Rusty / New York. / has been / to / <br />
+/ has been / 6 years. / Jake / fishing for / <br />
+/ studying Japanese / has been / Bob / for / months. / 3 / <br />
+/ 32 / years. / has been / for / Squidward / playing the clarinet / <br />
+/ to / Tokyo. / has / Kubota Sensei / been / <br />
 
 As you can see, in all of the sentences "has+been" or "have+been" is written instead of "has been" or "have been" in order for them to always be together in the shuffled sentences.

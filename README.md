@@ -3,7 +3,7 @@ HOLD ON THERE JETHRO!!! Please read this document first.
 
 This program shuffles the text of multiple sentences within a text file, and pastes the shuffled text into a separate document.
 
-This application is useful for language teachers wanting to quickly make a large document of randomized word sorting problems. These types of problems will help English learners become more familiar with specific grammar structures. 
+This application is useful for language teachers wanting to quickly make a large document of randomized word sorting problems. These types of problems will help language learners become more familiar with specific grammar structures. 
 
 For example: A text document can be filled with sentences such as "I really like cats." and may be shuffled into "really / cats. / like / I"
 

@@ -21,12 +21,12 @@ This program utilizes pyinstaller so that everything is run through a .exe file 
 
 Once downloaded, open the downloaded folder and open dist, then main. Write your sentences in the 'sentences.txt' file.
 
-*NOTE* You can also make sure that two or more words are always side-by-side within the shuffled 
+*NOTE:* You can also make sure that two or more words are always side-by-side within the shuffled 
 sentences by connecting multiple words with the "+" symbol.
 
-*ANOTHER NOTE* This program utilizes utf-8 so it should work with text from all languages. Create an issue or let me know if text from some languages does not work (or if you experience any other problems for that matter).
+*ANOTHER NOTE:* This program utilizes utf-8 so it should work with text from all languages. Create an issue or let me know if text from some languages does not work (or if you experience any other problems for that matter).
 
-*ANOTHER ANOTHER NOTE* After downloading the zip and running the application, you will receive an alert stating that you are about to run a potentially dangerous program. Feel free not to use the .exe file if you don't feel comfortable doing that. You can take the longer way around by downloading the source code from the dev branch of this repository as described previously (You will likely require a python installation identified as a PATH environment variable).
+*ANOTHER ANOTHER NOTE:* After downloading the zip and running the application, you will receive an alert stating that you are about to run a potentially dangerous program. Feel free not to use the .exe file if you don't feel comfortable doing that. You can take the longer way around by downloading the source code from the dev branch of this repository as described previously (You will likely require a python installation identified as a PATH environment variable).
 
 After you are finished creating your sentences in the text document, save your work. Then you can run the "main" application within the same folder
 and it will generate your shuffled sentences inside of the "shuffled.txt" document.

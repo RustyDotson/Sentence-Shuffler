@@ -17,15 +17,16 @@ How to use:
 In order to use this program, you can easily download this file as a zip.
 If you want to see the original code, please look at the dev branch of this repository.
 
+This program utilizes pyinstaller so that everything is run through a .exe file instead of requiring a python IDE to run the code.
+
 Once downloaded, open the downloaded folder and open dist, then main. Write your sentences in the 'sentences.txt' file.
 
 *NOTE* You can also make sure that two or more words are always side-by-side within the shuffled 
 sentences by connecting multiple words with the "+" symbol.
 
-*ANOTHER NOTE* This program utilizes utf-8 so it should work with text from all languages. Create an issue or let me know if text from some languages do not work (or if you experience any other problems for that matter).
+*ANOTHER NOTE* This program utilizes utf-8 so it should work with text from all languages. Create an issue or let me know if text from some languages does not work (or if you experience any other problems for that matter).
 
-*ANOTHER ANOTHER NOTE* After downloading the zip and running the application, you will receive an alert stating that you are about to run a dangerous
-program. Feel free to not use the .exe file if you don't feel comfortable doing that. You can take the longer way around by downloading the source code from the dev branch of this repository as described previously (You will need a Python IDE and likely require a python installation identified as a PATH environment variable).
+*ANOTHER ANOTHER NOTE* After downloading the zip and running the application, you will receive an alert stating that you are about to run a potentially dangerous program. Feel free not to use the .exe file if you don't feel comfortable doing that. You can take the longer way around by downloading the source code from the dev branch of this repository as described previously (You will likely require a python installation identified as a PATH environment variable).
 
 After you are finished creating your sentences in the text document, save your work. Then you can run the "main" application within the same folder
 and it will generate your shuffled sentences inside of the "shuffled.txt" document.
@@ -33,7 +34,7 @@ and it will generate your shuffled sentences inside of the "shuffled.txt" docume
 Below is an example of the input sentences, and output shuffled sentences:
 
 
-***Here is the input:
+***Here is the input:***
 
 I have+been working+at McDonalds+for 5 years.<br />
 Cody has+been sleeping+for 3 hours.<br />
@@ -43,7 +44,7 @@ Bob has+been studying+Japanese for 3 months.<br />
 Squidward has+been playing+the+clarinet for 32 years.<br />
 Kubota+Sensei has been to Tokyo.<br />
 
-***And here is the output:
+***And here is the output:***
 
 McDonalds for / have been / 5 / I / years. / working at / <br />
 has been / sleeping for / hours. / 3 / Cody / <br />
@@ -53,4 +54,4 @@ months. / Bob / for / 3 / has been / studying Japanese /<br />
 Squidward / playing the clarinet / has been / 32 / years. / for /<br /> 
 been / Tokyo. / Kubota Sensei / has / to / <br />
 
-As you can see, in all of the sentences I write "has+been" or "have+been" instead of "has been" or "have been" because I want the two words to always be next to each other in the randomized sentences since it is the main grammar point used in the lesson I created this program for.
+As you can see, in all of the sentences "has+been" or "have+been" is written instead of "has been" or "have been" in order for them to always be together in the shuffled sentences.

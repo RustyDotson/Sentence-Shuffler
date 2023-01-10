@@ -1,4 +1,6 @@
+import copy
 import random
+import time
 
 
 def list_to_str(words):
@@ -26,9 +28,13 @@ def make_word_list(text):
 
 
 def make_shuffled_str(split_sentence):
-    random.shuffle(split_sentence)
-    shuffled_sentence = list_to_str(split_sentence)
-    return shuffled_sentence
+    temp = copy.deepcopy(split_sentence)
+    while temp == split_sentence:
+        random.shuffle(temp)
+        print(temp)
+        print(split_sentence)
+    shuffled_sentence_str = list_to_str(temp)
+    return shuffled_sentence_str
 
 
 def iterate_file(text, new_text):

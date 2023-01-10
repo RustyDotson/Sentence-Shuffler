@@ -23,20 +23,20 @@ Below is an example of the input sentences, and output shuffled sentences:
 
 ***Here is the input:
 
-I have+been working+at McDonalds+for 5 years./n
-Cody has+been sleeping+for 3 hours.
-Rusty has+been to New+York.
-Jake has+been fishing+for 6+years.
-Bob has+been studying+Japanese for 3 months.
-Squidward has+been playing+the+clarinet for 32 years.
-Kubota+Sensei has been to Tokyo.
+I have+been working+at McDonalds+for 5 years.<br />
+Cody has+been sleeping+for 3 hours.<br />
+Rusty has+been to New+York.<br />
+Jake has+been fishing+for 6+years.<br />
+Bob has+been studying+Japanese for 3 months.<br />
+Squidward has+been playing+the+clarinet for 32 years.<br />
+Kubota+Sensei has been to Tokyo.<br />
 
 ***And here is the output:
 
-McDonalds for / have been / 5 / I / years. / working at / 
-has been / sleeping for / hours. / 3 / Cody / 
-to / Rusty / New York. / has been / 
-has been / Jake / fishing for / 6 years. / 
-months. / Bob / for / 3 / has been / studying Japanese / 
-Squidward / playing the clarinet / has been / 32 / years. / for / 
-been / Tokyo. / Kubota Sensei / has / to / 
+McDonalds for / have been / 5 / I / years. / working at / <br />
+has been / sleeping for / hours. / 3 / Cody / <br />
+to / Rusty / New York. / has been / <br />
+has been / Jake / fishing for / 6 years. /<br /> 
+months. / Bob / for / 3 / has been / studying Japanese /<br /> 
+Squidward / playing the clarinet / has been / 32 / years. / for /<br /> 
+been / Tokyo. / Kubota Sensei / has / to / <br />

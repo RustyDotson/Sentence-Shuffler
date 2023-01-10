@@ -1,7 +1,7 @@
 # Sentence-Shuffler
 HOLD ON THERE JETHRO!!! Please read this document first.
 
-This program shuffles the text of multiple sentences within a text file, and pastes the shuffled text into a separate document.
+Sentence-Shuffler shuffles the text of multiple sentences within a text file, and pastes the shuffled text into a separate document.
 
 This application is useful for language teachers wanting to quickly make a large document of randomized word sorting problems. These types of problems will help language learners become more familiar with specific grammar structures. 
 
@@ -26,10 +26,12 @@ sentences by connecting multiple words with the "+" symbol.
 
 *ANOTHER NOTE:* This program utilizes utf-8 so it should work with text from all languages. Create an issue or let me know if text from some languages does not work (or if you experience any other problems for that matter).
 
-*ANOTHER ANOTHER NOTE:* After downloading the zip and running the application, you will receive an alert stating that you are about to run a potentially dangerous program. Feel free not to use the .exe file if you don't feel comfortable doing that. You can take the longer way around by downloading the source code from the dev branch of this repository as described previously (You will likely require a python installation identified as a PATH environment variable).
+*ANOTHER ANOTHER NOTE:* After downloading the zip and running the application, you will receive an alert stating that you are about to run a potentially dangerous program (this is the case for most .exe files). Feel free not to use the .exe file if you don't feel comfortable doing that. The only other way around is by using the dev folder of this repository as described previously (You will likely require a python installation identified as a PATH environment variable). If you don't mind, click the underlined "more info" text and next click "run anyway."
 
-After you are finished creating your sentences in the text document, save your work. Then you can run the "main" application within the same folder
+After you are finished creating your sentences in the text document, save your work. Then you can run the "main.exe" application within the same folder
 and it will generate your shuffled sentences inside of the "shuffled.txt" document.
+
+After the sentences are generated it is usually a good idea to copy the text from the shuffled document, and paste it into a word document so that the user can customize the font and size of text.
 
 Below is an example of the input sentences, and output shuffled sentences:
 

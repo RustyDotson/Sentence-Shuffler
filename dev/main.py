@@ -5,9 +5,9 @@ import time
 
 def list_to_str(words):
     sentence = ''
-    sentence += '| '
+    sentence += '/ '
     for word in words:
-        sentence = sentence + word + ' | '
+        sentence = sentence + word + ' / '
     sentence += "\n"
     sentence = sentence.replace('+', ' ')
     return sentence

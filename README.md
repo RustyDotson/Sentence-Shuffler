@@ -24,6 +24,9 @@ sentences by connecting multiple words with the "+" symbol.
 
 *ANOTHER NOTE* This program utilizes utf-8 so it should work with text from all languages. Create an issue or let me know if text from some languages do not work (or if you experience any other problems for that matter).
 
+*ANOTHER ANOTHER NOTE* After downloading the zip and running the application, you will receive an alert stating that you are about to run a dangerous
+program. Feel free to not use the .exe file if you don't feel comfortable doing that. You can take the longer way around by downloading the source code from the dev branch of this repository as described previously (You will need a Python IDE and likely require a python installation identified as a PATH environment variable).
+
 After you are finished creating your sentences in the text document, save your work. Then you can run the "main" application within the same folder
 and it will generate your shuffled sentences inside of the "shuffled.txt" document.
 

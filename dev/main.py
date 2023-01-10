@@ -5,8 +5,9 @@ import time
 
 def list_to_str(words):
     sentence = ''
+    sentence += '| '
     for word in words:
-        sentence = sentence + word + ' / '
+        sentence = sentence + word + ' | '
     sentence += "\n"
     sentence = sentence.replace('+', ' ')
     return sentence
@@ -29,10 +30,11 @@ def make_word_list(text):
 
 def make_shuffled_str(split_sentence):
     temp = copy.deepcopy(split_sentence)
-    while temp == split_sentence:
-        random.shuffle(temp)
-        print(temp)
-        print(split_sentence)
+    if len(temp) > 1:
+        while temp == split_sentence:
+            random.shuffle(temp)
+            print(temp)
+            print(split_sentence)
     shuffled_sentence_str = list_to_str(temp)
     return shuffled_sentence_str
 

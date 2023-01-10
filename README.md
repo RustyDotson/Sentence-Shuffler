@@ -1,7 +1,9 @@
 # Sentence-Shuffler
-Shuffles the text of multiple sentences within a text file, and pastes the shuffled text into a separate document.
+HOLD ON THERE JETHRO!!! Please read this document first.
 
-This application is useful for teachers wanting to quickly make a large document of randomized word sorting problems. These types of problems will help English learners become more familiar with specific grammar structures.
+This program shuffles the text of multiple sentences within a text file, and pastes the shuffled text into a separate document.
+
+This application is useful for language teachers wanting to quickly make a large document of randomized word sorting problems. These types of problems will help English learners become more familiar with specific grammar structures. 
 
 For example: A text document can be filled with sentences such as "I really like cats." and may be shuffled into "really / cats. / like / I"
 
@@ -19,6 +21,8 @@ Once downloaded, open the downloaded folder and open dist, then main. Write your
 
 *NOTE* You can also make sure that two or more words are always side-by-side within the shuffled 
 sentences by connecting multiple words with the "+" symbol.
+
+*ANOTHER NOTE* This program utilizes utf-8 so it should work with text from all languages. Create an issue or let me know if text from some languages do not work (or if you experience any other problems for that matter).
 
 After you are finished creating your sentences in the text document, save your work. Then you can run the "main" application within the same folder
 and it will generate your shuffled sentences inside of the "shuffled.txt" document.

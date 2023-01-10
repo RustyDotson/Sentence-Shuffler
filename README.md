@@ -23,7 +23,7 @@ Below is an example of the input sentences, and output shuffled sentences:
 
 ***Here is the input:
 
-I have+been working+at McDonalds+for 5 years.
+I have+been working+at McDonalds+for 5 years./n
 Cody has+been sleeping+for 3 hours.
 Rusty has+been to New+York.
 Jake has+been fishing+for 6+years.

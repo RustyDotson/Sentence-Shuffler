@@ -15,7 +15,7 @@ I love making this activity for students, but I realized that shuffling sentence
 How to use:
 
 In order to use this program, you can easily download this file as a zip.
-If you want to see the original code, please look at the dev branch of this repository.
+If you want to see the original code, please look at the dev folder of this repository.
 
 This program utilizes pyinstaller so that everything is run through a .exe file instead of requiring a python IDE to run the code.
 
